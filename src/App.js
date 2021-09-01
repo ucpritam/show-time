@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import HomeScreen from './HomeScreen';
+import Home from './HomeScreen';
+import Nav from './nav';
+
 function App() {
   return (
     <div className="app">
-      <HomeScreen />
-
+      <Home />
+      <Nav />
     </div>
   );
 }
