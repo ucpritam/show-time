@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./nav.css";
+import "./navbar.css";
 
 function Nav() {
 
