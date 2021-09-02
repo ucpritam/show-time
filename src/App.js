@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import Home from './HomeScreen';
-import Nav from './nav';
+import HomeScreen from './HomeScreen';
+import Nav from './Nav';
 import Footer from './footer';
 import Banner from './banner';
+
 
 function App() {
   return (
     <div className="app">
-      <Home />
+      <HomeScreen />
       <Nav />
       <Footer />
       <Banner />
