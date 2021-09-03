@@ -1,3 +1,7 @@
+.fa {
+  padding: 0 5px 0 0;
+}
+
 .app__featured {
   width: 100%;
 }
@@ -30,20 +34,11 @@
   height: 80px;
 }
 
-.banner__fadeBottom {
-  height: 7.4rem;
-  background-image: linear-gradient(
-    180deg,
-    transparent,
-    rgba(37, 37, 37, 0.61),
-    #111
-  );
-}
-
 .banner__button {
-  font-size: 0.8rem;
+  display: flex;
+  font-size: 0.9rem;
   cursor: pointer;
-  color: #fff;
+  color: #00ff8d;
   outline: none;
   border: none;
   font-weight: 700;
@@ -54,7 +49,7 @@
 }
 
 .banner__button:hover {
-  color: #000;
-  background-color: #e6e6e6;
+  color: #111;
+  background-color: #00ff8d;
   transition: all 0.2s;
 }

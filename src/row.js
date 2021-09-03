@@ -22,7 +22,9 @@ console.log(movies);
 
   return (
     <div className="row">
-      <h2>{title}</h2>
+      <div className="title">
+          <h2>{title}</h2>
+      </div>
 
 
       <div className="row__posters">
