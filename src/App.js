@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Nav from './navbar';
-import Banner from './banner';
+import Loginscreen from './screens/loginscreen';
+import HomeScreen from './screens/homescreen';
 
 function App() {
   return (
     <div className="app">
-      <Nav />
-      <Banner />
+    {/* <Loginscreen /> */}
+    <HomeScreen />
     </div>
   );
 }
