@@ -6,7 +6,7 @@ import HomeScreen from './screens/homescreen';
 function App() {
   return (
     <div className="app">
-    {/* <Loginscreen /> */}
+    <Loginscreen />
     <HomeScreen />
     </div>
   );

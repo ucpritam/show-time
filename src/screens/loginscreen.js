@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../assets/ShowTime.svg';
 import homescreen from './homescreen';
+import SignUpScreen from '../screens/signupscreen';
 import "./loginscreen.css";
 
 function Loginscreen() {
@@ -21,7 +22,7 @@ function Loginscreen() {
 
                 <div className="loginScreen__body">
                     {signIn ? (
-                        {/* <SignInScreen /> */}
+                         <SignUpScreen /> 
                     ): (
                         <>
                     <h1>Unlimited Films, TV Programs and Much More.</h1>
