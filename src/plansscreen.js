@@ -6,7 +6,7 @@ import "./plansscreen.css";
 import { loadStripe } from "@stripe/stripe-js";
 
 
-function plansscreen() {
+function Plansscreen() {
     const [products, setProducts] = useState([]);
     const user = useSelector(selectUser);
     const[subscription, setSubscription]=useState(null);
@@ -97,4 +97,4 @@ function plansscreen() {
     );
 }
 
-export default plansscreen;
+export default Plansscreen;

@@ -18,28 +18,30 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
     fetchData();
   }, [fetchUrl]);
 
-console.log(movies);
+  console.log(movies);
 
   return (
     <div className="row">
       <div className="title">
-          <h2>{title}</h2>
+        <h2>{title}</h2>
       </div>
-
 
       <div className="row__posters">
         {movies.map(
           (movie) =>
             ((isLargeRow && movie.poster_path) ||
-            (!isLargeRow && movie.backdrop_path))&& (
-              <img
-                className={`row__poster ${isLargeRow && "row__posterLarge"}`}
-                key={movie.id}
-                src={`${base_url}${
-                  isLargeRow ? movie.poster_path : movie.backdrop_path
-                }`}
-                alt={movie.name}
-              />
+              (!isLargeRow && movie.backdrop_path)) && (
+              <div className="list__item">
+                <img
+                  className={`row__poster ${isLargeRow && "row__posterLarge"}`}
+                  key={movie.id}
+                  src={`${base_url}${
+                    isLargeRow ? movie.poster_path : movie.backdrop_path
+                  }`}
+                  alt={movie.name}
+                />
+                <div className="list__itemTitle">{movie?.title || movie?.name || movie?.original_name}</div>
+              </div>
             )
         )}
       </div>
