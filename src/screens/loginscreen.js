@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../assets/ShowTime.svg';
 import homescreen from './homescreen';
+import SignUpScreen from '../screens/signupscreen';
 import "./loginscreen.css";
 
 function Loginscreen() {
@@ -21,7 +22,7 @@ function Loginscreen() {
 
                 <div className="loginScreen__body">
                     {signIn ? (
-                        {/* <SignInScreen /> */}
+                         <SignUpScreen /> 
                     ): (
                         <>
                     <h1>Unlimited Films, TV Programs and Much More.</h1>
@@ -29,7 +30,7 @@ function Loginscreen() {
                     <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
 
                     <div className="loginScreen__input">
-                        <form>
+                        <form className="s_form">
                             <input type="email" placeholder="Email Address"/>
                             <button 
                             onClick={() => setSignIn(true)}
