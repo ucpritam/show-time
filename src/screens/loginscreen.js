@@ -1,8 +1,10 @@
-
-import React, { useState }from 'react';
+import React, { useState } from 'react';
+import Logo from '../assets/ShowTime.svg';
 import homescreen from './homescreen';
+import SignUpScreen from '../screens/signupscreen';
 import "./loginscreen.css";
-function loginscreen() {
+
+function Loginscreen() {
     const [signIn, setSignIn] = useState(false);
 
     return (
@@ -11,16 +13,16 @@ function loginscreen() {
 
                 <img
                  className="loginScreen__logo"               
-                 src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" 
+                 src={Logo} 
                  alt="" 
                 />
-                <button onClick={() => setSignIn(true)} className="loginScreen__buton">Sign In </button>
+                <button onClick={() => setSignIn(true)} className="loginScreen__button">Sign In </button>
                 <div className="loginScreen__gradient">
                 </div>
 
                 <div className="loginScreen__body">
                     {signIn ? (
-                        <SignInScreen />
+                         <SignUpScreen /> 
                     ): (
                         <>
                     <h1>Unlimited Films, TV Programs and Much More.</h1>
@@ -28,7 +30,7 @@ function loginscreen() {
                     <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
 
                     <div className="loginScreen__input">
-                        <form>
+                        <form className="s_form">
                             <input type="email" placeholder="Email Address"/>
                             <button 
                             onClick={() => setSignIn(true)}
@@ -47,4 +49,4 @@ function loginscreen() {
     );
 }
 
-export default loginscreen;
+export default Loginscreen;

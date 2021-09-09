@@ -27,7 +27,7 @@
     position: fixed;
     top: 10px;
     left: 0;
-    width: 80px;
+    width: 140px;
     object-fit: contain;
     padding-left: 20px;
     cursor: pointer;
@@ -39,4 +39,5 @@
     right: 20px;
     width: 30px;
     height: 30px;
+    border-radius: 50%;
 } 
