@@ -34,9 +34,9 @@
 .signupScreen > form > button {
     padding: 16px 20px;
     font-size: 1rem;
-    color: #fff;
+    color: #111;
     border-radius: 5px;
-    background-color: #e50914;
+    background-color: #00ff8d;
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -46,4 +46,8 @@
 .signupScreen__link:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.s-bot {
+    margin-top: 15px;
 }
