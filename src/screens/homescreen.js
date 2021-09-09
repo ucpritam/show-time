@@ -9,7 +9,7 @@ function homescreen() {
     return (
         <div className="homeScreen">
             <Nav />
-            <Banner />
+            <Banner fetchUrl={requests.fetchNetflixOriginals}/>
             <Row 
                 title= "Showtime Originals"
                 fetchUrl={requests.fetchNetflixOriginals}
@@ -20,7 +20,7 @@ function homescreen() {
             <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
             <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
             <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-            <Row title="Romance Movies" fetchUrl={requests.fetchRomanticMovies} />
+            <Row title="Explore More" fetchUrl={requests.fetchRomanticMovies} />
             {/* <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} /> */}
             </div>
     );
