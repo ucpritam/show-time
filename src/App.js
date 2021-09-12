@@ -29,8 +29,8 @@ function App() {
 
   return (
     <div className="app">
-    <Loginscreen />
-    {/* <HomeScreen /> */}
+    {/* <Loginscreen /> */}
+    <HomeScreen />
     </div>
   );
 }
