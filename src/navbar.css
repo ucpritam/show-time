@@ -41,3 +41,11 @@
     height: 30px;
     border-radius: 50%;
 } 
+
+.nav__team {
+    color: #00ff8d;
+    position: fixed;
+    right: 80px;
+    top: 17px;
+    cursor: pointer;
+}
