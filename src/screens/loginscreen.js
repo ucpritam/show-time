@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Logo from '../assets/ShowTime.svg';
-import homescreen from './homescreen';
 import SignUpScreen from '../screens/signupscreen';
 import "./loginscreen.css";
 
@@ -25,23 +24,23 @@ function Loginscreen() {
                          <SignUpScreen /> 
                     ): (
                         <>
-                    <h1>Unlimited Films, TV Programs and Much More.</h1>
-                    <h2>Watch anywhere. Cancel at any time.</h2>
-                    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                            <h1>See What's New</h1>
+                            {/* <h2>Watch anywhere. Cancel at any time.</h2> */}
+                            <h3>Watch Anywhere, Cancel Anytime</h3>
 
-                    <div className="loginScreen__input">
-                        <form className="s_form">
-                            <input type="email" placeholder="Email Address"/>
-                            <button 
-                            onClick={() => setSignIn(true)}
-                            className="loginScreen__getStarted">
-                                GET STARTED
-                            </button>
-                        </form>
-                    </div>
-                    </>
+                            <div className="loginScreen__input">
+                                <form className="s_form">
+                                    {/* <input type="email" placeholder="Email Address"/> */}
+                                    <button 
+                                    onClick={() => setSignIn(true)}
+                                    className="loginScreen__getStarted">
+                                        Join Free For A Month
+                                    </button>
+                                </form>
+                            </div>
+                        </>
                     )}
-                    
+                     
                 </div>
 
             </div>   

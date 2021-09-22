@@ -23,7 +23,7 @@
   border-radius: 10px;
 }
 .row__poster:hover {
-  transform: scale(1.04);
+  transform: scale(1.06);
   cursor: pointer;
   opacity: 1;
 }
@@ -53,5 +53,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
