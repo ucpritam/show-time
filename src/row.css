@@ -23,7 +23,7 @@
   border-radius: 10px;
 }
 .row__poster:hover {
-  transform: scale(1.04);
+  transform: scale(1.06);
   cursor: pointer;
   opacity: 1;
 }
@@ -42,4 +42,15 @@
   width: 80%;
   cursor: pointer;
   text-shadow: 1px 1px 4px #111;
+}
+
+.trailer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

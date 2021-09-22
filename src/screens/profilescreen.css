@@ -39,9 +39,15 @@
 .profilescreen_signout { padding: 10px 20px;
     font-size: 1rem;
     margin-top: 5%;
+<<<<<<< HEAD
     width: 100%;
     color: #fff;
     background-color: #e50914;
+=======
+    width: 20%;
+    color: #111;
+    background-color: #00ff8d;
+>>>>>>> 9953d5c8d97e8bf16dd9c98e62fed2ef026025f2
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -58,5 +64,9 @@ margin-top: 20px;
 
 .profilescreen_info> img {
     height: 100px;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 9953d5c8d97e8bf16dd9c98e62fed2ef026025f2
