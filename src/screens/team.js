@@ -4,7 +4,6 @@ import Logo1 from '../assets/Pritam.jpg';
 import Logo2 from '../assets/Akash.jpg';
 import Logo3 from '../assets/Tanya.jpg';
 import Logo4 from '../assets/Debnath.jpeg';
-import Logo5 from '../assets/Jayanta.JPG';
 import './team.css';
 
 export const team = () => {
@@ -42,13 +41,6 @@ export const team = () => {
         <h3 className="user-name">Pritam Debnath</h3>
         <h5>Developer</h5>
         <p>Signup Page, Banner</p>
-      </div>
-      <div className="profile">
-        <img src={Logo5} className="profile-img" />
-
-        <h3 className="user-name">Jayanta Saha</h3>
-        <h5>Developer</h5>
-        <p>Profile Screen, Our Team</p>
       </div>
     </div>
   </div>
